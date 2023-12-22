@@ -1,0 +1,9 @@
+cmake_minimum_required (VERSION 3.5)
+project(ATM_20230941_Jcz)
+aux_source_directory(src SRC_SUB)
+aux_source_directory(. SRC_CUR)
+aux_source_directory(app SRC_SUB)
+# Ìí¼Ó¾²Ì¬Á´½Ó¿â
+set(CMAKE_EXE_LINKER_FLAGS "${CMAKE_EXE_LINKER_FLAGS} -static-libgcc -static-libstdc++")
+add_executable(ATM_20230941_Jcz ${SRC_SUB} ${SRC_CUR})
+include_directories(inc)

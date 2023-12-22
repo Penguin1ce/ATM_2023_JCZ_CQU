@@ -1,0 +1,29 @@
+account: 1111111111111111111
+name: john
+id_num: 111111111111111111
+password: 123456
+balance: 10000
+今日可以取款(元): 20000
+
+account: 1111111111111111112
+name: Zakary
+id_num: 111111111111111112
+password: 123456
+balance: 91000
+今日可以取款(元): 20000
+
+account: 1111111111111111113
+name: Peter
+id_num: 111111111111111113
+password: 222222
+balance: 20000
+今日可以取款(元): 20000
+
+account: 1111111111111111114
+name: Jack
+id_num: 111111111111111114
+password: 111111
+balance: 100
+今日可以取款(元): 20000
+
+2023-12-22
